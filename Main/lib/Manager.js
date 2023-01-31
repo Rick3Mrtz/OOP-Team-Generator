@@ -8,6 +8,15 @@ class Manager extends Employee {
     getRole() {
         return 'Manager'
     }
+
+    getOfficeNumber() {
+        return this.officeNumber
+    }
+
+    getId() {
+        console.log(`Id: ${this.id}`);
+        return this.id;
+      }
 }
 
 
